@@ -1,0 +1,206 @@
+.fancy-one {
+  position: absolute;
+
+  right: 20px;
+  bottom: 10px;
+
+  z-index: -1;
+
+  width: 400px;
+  height: 400px;
+
+  background-color: rgba(255, 83, 45, 1);
+  border-radius: 30% 70% 70% 30% / 30% 76% 24% 70%;
+  box-shadow: -4px 4px 140px 81px rgba(255, 82, 44, 0.3);
+}
+
+.fancy-four {
+  position: absolute;
+
+  right: 300px;
+  bottom: -300px;
+
+  z-index: -1;
+
+  width: 400px;
+  height: 400px;
+
+  background-color: rgba(255, 83, 45, 0.9);
+  border-radius: 90% 10% 27% 73% / 84% 21% 79% 16%;
+  box-shadow: -4px 4px 140px 81px rgba(255, 82, 44, 0.3);
+}
+
+.contact-button {
+  font-size: 18px;
+  font-weight: 700;
+
+  color: white;
+
+  background-color: #FF522C;
+  box-shadow: 0px 4px 20px 3px rgba(255, 82, 44, 0.63);
+  transition: 0.3s all;
+
+  padding: 10px 20px 7px 20px;
+  border-radius: 30px;
+}
+
+.contact-button:visited {
+  color: white;
+}
+
+.contact-button:hover {
+  box-shadow: 0px 4px 25px 4px rgba(255, 82, 44, 0.63);
+  transform: scale(1.05, 1.05);
+}
+
+.thing-card {
+  width: 200px;
+  height: 75px;
+
+  background-color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  transition: all 0.3s;
+
+  border-radius: 25px;
+  box-shadow: 0px 8px 20px 0px rgba(96, 96, 96, 0.30);
+}
+
+.thing-card:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.thing-card img {
+  width: 50px;
+  padding-left: 10px;
+}
+
+.thing-card p {
+  width: 60%;
+  margin-right: 20px;
+
+  font-weight: 500;
+
+  text-align: right;
+}
+
+.octo {
+  position: absolute;
+
+  top: 50px;
+  right: 300px;
+}
+
+.jet {
+  position: absolute;
+
+  top: 170px;
+  right: 120px;
+}
+
+.code {
+  position: absolute;
+
+  top: 340px;
+  right: 440px;
+}
+
+.big-card {
+  width: 300px;
+  height: 350px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 15px;
+
+  border: solid 1px rgba(255, 255, 255, 0.5);
+
+  position: absolute;
+
+  right: 200px;
+
+  background: linear-gradient(135deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.3) 100%);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.2 );
+  backdrop-filter: blur( 15px );
+
+  font-family: 'Rubik', sans-serif;
+}
+
+.big-card h3{
+  font-size: 18px;
+}
+
+.card-p {
+  font-size: 14px;
+  font-weight: 400;
+
+  text-align: center;
+  margin-top: 0;
+
+  opacity: 0.6;
+}
+
+.pic {
+  margin-top: 29px;
+
+  width: 75px;
+  height: 75px;
+
+  background-color: #FF7070;
+}
+
+.learn-button {
+  width: 150px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+
+  background-color: white;
+
+  box-shadow: -5px 4px 10px 0px rgba(0, 133, 255, 0.10);
+
+  position: absolute;
+  bottom: 35px;
+
+  transition: all 0.3s;
+}
+
+.learn-button a {
+  font-size: 14px;
+  font-weight: 400;
+
+  color: #0085FF;
+}
+
+.learn-button:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.learn-button a:visited {
+  color: #0085FF;
+}
+
+
+.labs {
+  top: 20px;
+  right: 20%;
+}
+
+.course {
+  top: 300px;
+  left: 25%;
+}
+
+.bot232 {
+  top: 400px;
+  right: 2%;
+}
