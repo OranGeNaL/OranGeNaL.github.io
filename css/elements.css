@@ -122,6 +122,8 @@
 
   position: absolute;
 
+  transition: all 0.3s;
+
   right: 200px;
 
   background: linear-gradient(135deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.3) 100%);
@@ -203,4 +205,30 @@
 .bot232 {
   top: 400px;
   right: 2%;
+}
+
+
+@media all and (max-width: 1240px) {
+  .big-card {
+    width: 200px;
+    height: 220px;
+  }
+
+  .big-card h3 {
+    font-size: 14px;
+  }
+
+  .pic {
+    display: none;
+  }
+
+  .card-p {
+    font-size: 12px;
+    text-align: left;
+    padding: 0 20px;
+  }
+
+  .learn-button {
+    bottom: 25px;
+  }
 }
